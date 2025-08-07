@@ -1,0 +1,7 @@
+import shutil
+
+# Caminho do arquivo já gerado anteriormente
+zip_path = "/mnt/data/Checklist-Logistica-Vetex.zip"
+
+# Copiar o arquivo para garantir que será entregue novamentese necessário
+shutil.copy(zip_path, "/mnt/data/Checklist-Logistica-Vetex-v2.zip")
